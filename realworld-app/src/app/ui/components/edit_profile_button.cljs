@@ -8,9 +8,8 @@
             [keechma.next.controllers.router :as router]))
 
 (defnc EditProfileButtonRenderer
-       [props]
-       (d/a {:class "btn btn-sm btn-outline-secondary",
-             :href (router/get-url props :router {:page "settings"})}
-            (d/i {:class "ion-gear-a"} " Edit Profile Settings")))
+  []
+  (d/a {:class "btn btn-sm btn-outline-secondary"}
+       (d/i {:class "ion-gear-a"} " Edit Profile Settings")))
 
 (def EditProfileButton (with-keechma EditProfileButtonRenderer))

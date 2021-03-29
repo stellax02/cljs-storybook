@@ -8,12 +8,9 @@
             [keechma.next.controllers.router :as router]))
 
 (defnc EditArticleButtonRenderer
-       [{:keys [article], :as props}]
-       (d/a {:class "btn btn-outline-secondary btn-sm",
-             :href (router/get-url props
-                                   :router
-                                   {:page "editor", :slug (:slug article)})}
-            (d/i {:class "ion-edit"})
-            " Edit Article"))
+  []
+  (d/a {:class "btn btn-outline-secondary btn-sm"}
+       (d/i {:class "ion-edit"})
+       " Edit Article"))
 
 (def EditArticleButton (with-keechma EditArticleButtonRenderer))
