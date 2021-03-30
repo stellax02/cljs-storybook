@@ -1,7 +1,7 @@
 (ns stories.core
-  (:require [app.ui.components.favorite-button-stories]
-            [app.ui.components.edit-profile-button-stories]
-            [app.ui.components.follow-button-stories]
-            [app.ui.components.edit-article-button-stories]
-            [app.ui.components.delete-article-button-stories]
-            [app.ui.components.articles-stories]))
+  (:require [app.ui.stories.favorite-button-stories]
+            [app.ui.stories.edit-profile-button-stories]
+            [app.ui.stories.follow-button-stories]
+            [app.ui.stories.edit-article-button-stories]
+            [app.ui.stories.delete-article-button-stories]
+            [app.ui.stories.articles-stories]))
