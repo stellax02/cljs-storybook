@@ -4,11 +4,9 @@
 
 Run:
 
-> yarn start
+> yarn
 
-> yarn build-storybook
->
-> > > > > > > > (not necessary every time)
+> yarn start
 
 > yarn dev-stories
 >

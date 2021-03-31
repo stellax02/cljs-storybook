@@ -11,7 +11,7 @@
   #js {:title "Delete Article Button"
        :component deleteArticle_button/DeleteButton})
 
-(defn ^:export Normal [text]
+(defn ^:export Normal []
   ($ deleteArticle_button/DeleteButton))
 
 (defn ^:export Variation [text]
