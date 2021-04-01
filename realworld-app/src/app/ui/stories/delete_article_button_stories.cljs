@@ -6,7 +6,6 @@
    ["react-dom" :as rdom]
    [app.ui.lib :refer ($)]))
 
-
 (def ^:export default
   #js {:title "Delete Article Button"
        :component deleteArticle_button/DeleteButton})
