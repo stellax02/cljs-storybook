@@ -1,10 +1,11 @@
 (ns app.ui.stories.follow-button-stories
   (:require
    [app.ui.components.follow-button :as follow_button]
+   [keechma.next.helix.lib :refer [defnc]]
+   [helix.core :as hx :refer [$ <> suspense]]
    [helix.dom :as d]
    ["react" :as react]
-   ["react-dom" :as rdom]
-   [app.ui.lib :refer ($)]))
+   ["react-dom" :as rdom]))
 
 
 (def ^:export default

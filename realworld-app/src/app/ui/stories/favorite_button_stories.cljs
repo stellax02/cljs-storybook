@@ -1,7 +1,8 @@
 (ns app.ui.stories.favorite-button-stories
   (:require
    [app.ui.components.favorite-button :as fav_button]
-   [app.ui.lib :refer ($)]))
+   [keechma.next.helix.lib :refer [defnc]]
+   [helix.core :as hx :refer [$ <> suspense]]))
 
 
 (def ^:export default
